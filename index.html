@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Project</title>
+    <style>
+        body{
+            background-color: #cfcece;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #main{
+            
+            width: 400px;
+            
+            position: relative;
+            left: 300px;
+            top: 100px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;             
+        }
+
+        .field{
+            
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 30px;            
+        }
+        
+         span{
+            text-align: left;
+            flex: 1; 
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>User Information Card</h1>
+        <div id="userInfo">
+            <div class="field">
+                <span class="label">First Name:</span>
+                <span id="first-name"></span>
+            </div>
+            <div class="field">
+                <span class="label">Last Name:</span>
+                <span id="last-name"></span>
+            </div>
+            <div class="field">
+                <span class="label">Country:</span>
+                <span id="country"></span>
+            </div>
+            <div class="field">
+                <span class="label">Phone Number:</span>
+                <span id="phone-number"></span>
+            </div>
+            <div class="field">
+                <span class="label">State:</span>
+                <span id="state"></span>
+            </div>
+            <div class="field">
+                <span class="label">City:</span>
+                <span id="city"></span>
+            </div>
+            <div class="field">
+                <span class="label">Village:</span>
+                <span id="village"></span>
+            </div>
+        </div>       
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
